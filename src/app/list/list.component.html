@@ -29,9 +29,12 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
-  </nav>
+</nav>
 
-  <div *ngFor="let Laptop of Laptop">
-      <h2>{{Laptop.name}}</h2>
-      <p>{{Laptop.name}} have ${{Laptop.sales}} sales on 2018.<br>Rating: {{Laptop.rating}}</p>
-  </div>
+<div *ngFor="let Laptop of Laptop">
+    <h4>{{Laptop.name}}</h4>
+    <p>{{Laptop.name}} have ${{Laptop.sales}} sales on 2018.<br> Overall Rating: {{Laptop.rating}}</p>
+</div>
+
+<app-listpie></app-listpie>
+<app-listtable></app-listtable>

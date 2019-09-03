@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { TableComponent } from './table/table.component';
 import { HomeBarComponent } from './home-bar/home-bar.component';
+import { ListpieComponent } from './listpie/listpie.component';
+import { ListtableComponent } from './listtable/listtable.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { HomeBarComponent } from './home-bar/home-bar.component';
     HomeComponent,
     ListComponent,
     TableComponent,
-    HomeBarComponent
+    HomeBarComponent,
+    ListpieComponent,
+    ListtableComponent
   ],
   imports: [
     BrowserModule,
